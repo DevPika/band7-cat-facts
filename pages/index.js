@@ -40,7 +40,7 @@ Page({
 
       if (!factWidget) {
         factWidget = hmUI.createWidget(hmUI.widget.TEXT, {
-          x: px(96),
+          x: px(20),
           y: px(100),
           w: px(288),
           h: px(46),

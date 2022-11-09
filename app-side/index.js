@@ -48,7 +48,7 @@ AppSideService({
     messageBuilder.on('request', (ctx) => {
       const jsonRpc = messageBuilder.buf2Json(ctx.request.payload)
       if (jsonRpc.method === 'GET_DATA') {
-        return fetchDataMin(ctx)
+        return fetchData(ctx)
       }
     })
   },
